@@ -1,0 +1,22 @@
+{
+  "name": "domqs",
+  "version": "1.0.0",
+  "description": "Easy DOM scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r @babel/register test.js"
+  },
+  "author": "Víctor Martínez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/register": "^7.8.6",
+    "jsdom": "^16.2.0",
+    "mocha": "^7.1.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "lodash": "~4"
+  }
+}
